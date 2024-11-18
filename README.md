@@ -1,4 +1,4 @@
-# Excel Bank Churn Analysis
+# Excel Customer Churn Analysis
 
 ## Project Overview
 This project focuses on analyzing customer churn in the banking sector, utilizing a dataset to derive insights from customer demographics and purchasing behaviors. The goal is to understand how different customer groups influence retention and profitability, aiding banks in refining marketing strategies and enhancing customer engagement.
@@ -10,7 +10,7 @@ The dataset, provided by Radheshyam Kollipara, is in CSV format. The initial ste
 ```python
 import pandas as pd
 
-df = pd.read_csv('Assets/raw_bank_data.csv')
+df = pd.read_csv('Data_sets/bank_data.csv')
 df
 ```
 The dataset consists of 10,000 rows and 18 columns:
@@ -70,4 +70,6 @@ Analyzed average credit scores, balances, and product usage between genders, rev
 This project provides insights that can help banks tailor their marketing strategies and improve customer engagement efforts.
 
 ## Acknowledgements
-Thank you for your time. If you have any suggestions for improving this project, please feel free to comment. Any input is appreciated.
+Thank you for your time. If you have any suggestions for improving this project, feel free to comment.
+
+[enter closing here]
